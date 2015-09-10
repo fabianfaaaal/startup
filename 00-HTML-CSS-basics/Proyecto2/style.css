@@ -4,7 +4,42 @@ body{
 
 #conteiner{
   width: 960px;
+  /* TOP RIGHT BOTTOM LEFT*/
   margin: 0 auto 0 auto;
   position: relative;
 
+}
+
+#titulo{
+  position: center;
+  background-color: green;
+  text-align: center;
+}
+#links{
+  float:left;
+  background-color: blue;
+  display: block;
+}
+#section{
+  width: 800px;
+  float:center;
+  text-align: center;
+}
+#articulo{
+  background-color: white;
+  display: block;
+
+}
+#block{
+  float: right;
+  width: 100px;
+  height: 210px;
+  background-color: red;
+}
+#end{
+  width: 960px;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  background-color: yellow;
+  position: relative;
 }
