@@ -3,16 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
+        <title>CSS Basics</title>
+        <meta name="description" content="Mi primer web normalizada con contenido css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="normalize.css"><!-- Llama al normalize.css-->
+        <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
+        <!-- Comienza link css-->
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -20,12 +21,20 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div id="conteiner">
+          <header> <h1>< header ></h1> </header>
+          <nav> <h1>< nav ></h1> </nav>
+          <article>
+            <section> <h1>< section ></h1> </section>
+            <section> <h1>< section ></h1> </section>
+          </article>
+          <footer> <h1>< footer ></h1> </footer>
+        </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script> -->
+        <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script> -->
+        <!-- <script src="js/plugins.js"></script> -->
+        <!-- <script src="js/main.js"></script> -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
