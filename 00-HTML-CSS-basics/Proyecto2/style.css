@@ -11,36 +11,41 @@ body{
 
 }
 
-.titulo{
+.header{
   position: center;
-  background-color: green;
+  background-color: magenta;
   text-align: center;
+  font-size: 46px;
 }
-.links{
+.navigation{
   float:left;
   background-color: blue;
   display: block;
+  font-size: 12px;
 }
-.section{
+.content{
   width: 800px;
   float:center;
   text-align: center;
+  font-size: 14px;
+  background-color: blue;
 }
 .articulo{
-  background-color: white;
   display: block;
 
 }
-.block{
+.sidebar{
   float: right;
   width: 100px;
-  height: 210px;
-  background-color: red;
+  height: 170px;
+  background-color: magenta;
+  font-size: 10px;
 }
-.end{
+.footer{
   width: 960px;
   margin: 100px auto 0 auto;
   text-align: center;
-  background-color: yellow;
+  background-color: magenta;
   position: relative;
+  font-size: 10px;
 }
