@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset ="UTF-8"> <!--Esta metadata se usa para seleccionar el sistema de caracteres predeterminado en el que se mostrara el contenido del html -->
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0"> <!-- Esta metadata modifica como se va a mostrar el contenido. Se puede tambien limitar el zoom y otras caracteristicas del viewport -->
     <title>Mi primer Formulario</title>
     <style type="text/css">
     label, input{
@@ -23,7 +25,7 @@
             <label for="birthday">Ingresa tu cumpleaños:</label>
             <input id="birthday" name="userbirthday" type="date" required/>
             <label for="sports">Selecciona tu deporte favorito:</label>
-            <select name="sports">
+            <select id="sports" name="usersports">
               <option value="Futbol">Futbol</option>
               <option value="Basket">Basket</option>
               <option value="Tenis">Tenis</option>
