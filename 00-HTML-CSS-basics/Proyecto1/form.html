@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset ="UTF-8"> <!--Esta metadata se usa para seleccionar el sistema de caracteres predeterminado en el que se mostrara el contenido del html -->
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0"> <!-- Esta metadata modifica como se va a mostrar el contenido. Se puede tambien limitar el zoom y otras caracteristicas del viewport -->
+    <title>Mi primer Formulario</title>
+    <style type="text/css">
+    label, input{
+        display: block;
+    }
+    label{
+        padding-top: 25px;
+    }
+    </style>
+</head>
+    <body>
+      <h2>Complete el siguiente formulario:</h2>
+        <form>
+            <label for="theName"> Ingresa tu nombre:</label>
+            <input id="theName" name="username" type="text" required/>
+            <label for="theLastName"> Ingresa tu Apellido:</label>
+            <input id="theLastName" name="userlastname" type="text" required/>
+            <label for="mail"> Ingresa tu e-mail:</label>
+            <input id="mail" name="usermail" type="email" required/>
+            <label for="birthday">Ingresa tu cumpleaños:</label>
+            <input id="birthday" name="userbirthday" type="date" required/>
+            <label for="sports">Selecciona tu deporte favorito:</label>
+            <select id="sports" name="usersports">
+              <option value="Futbol">Futbol</option>
+              <option value="Basket">Basket</option>
+              <option value="Tenis">Tenis</option>
+              <option value="Polo">Polo</option>
+            </select>
+            <label for="bio">Escribe un poco sobre ti:</label>
+            <textarea id="bio" name="userbio" rows="4" cols="50" required></textarea>
+            <label> </label>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset Form</button>
+
+        </form>
+
+    </body>
+</html>
+
