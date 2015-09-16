@@ -1,0 +1,8 @@
+#section1 {
+  width: 960px;
+  /* TOP RIGHT BOTTOM LEFT*/
+  margin: 0 auto 0 auto;
+  position: relative;
+  text-align: center;
+
+}
