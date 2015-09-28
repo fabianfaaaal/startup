@@ -1,0 +1,23 @@
+{
+  "name": "node-moduletopic5",
+  "version": "1.0.0",
+  "description": "Aprendiendo AngularJS",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabianfaaaal/startup.git"
+  },
+  "author": "Fabian Lammoglia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabianfaaaal/startup/issues"
+  },
+  "homepage": "https://github.com/fabianfaaaal/startup#readme"
+}
