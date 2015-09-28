@@ -4,13 +4,15 @@
 	<meta charset="UTF-8">
 	<title>AngularJS</title>
 	<script src="node_modules/angular/angular.min.js"></script>
-
+	<script src="js/app.js"></script>
+	<script src="js/controller/MainController.js"></script>
+	
 </head>
 
 <body ng-app="myApp"> <!-- ng-app es una directiva que le dice a Angular que el modulo myApp va vivir dentro del body. -->
 	<p>Angular...</p>
 
-	
+
 	<div ng-controller="MainController">
 
 		<h1> {{ title }} </h1>
