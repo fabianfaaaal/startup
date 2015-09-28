@@ -1,0 +1,28 @@
+{
+  "name": "node-modulesa",
+  "version": "1.0.0",
+  "description": "Practice modules",
+  "main": "index.js",
+  "dependencies": {
+    "requirejs": "^2.1.20",
+    "jquery": "^2.1.4",
+    "browserify": "^11.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "¿?"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabianfaaaal/startup/"
+  },
+  "keywords": [
+    "node",
+    "module",
+    "commonjs",
+    "jquery",
+    "npm"
+  ],
+  "author": "Fabian Lammoglia",
+  "license": "ISC"
+}
