@@ -4,9 +4,10 @@
 	<meta charset="UTF-8">
 	<title>AngularJS</title>
 	<script src="node_modules/angular/angular.min.js"></script>
+	<script src="node_modules/angular-route/angular-route.min.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/controller/MainController.js"></script>
-	<script src="node_modules/angular-route/angular-route.min.js"></script>
+	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
 </head>
@@ -15,22 +16,7 @@
 	<p>Angular...</p>
 
 
-	<div class="list" ng-controller="MainController" >
-
-		<h1> {{ title }} </h1>
-
-		<div class="moviess" ng-repeat="movie in movies">
-			<div> 
-				<p id="titulo"> {{ movie.name }} </p>
-				<img ng-src="{{ movie.img }}">
-				<p id="año"> {{ movie.year }} </p>
-				<p id="info"> {{ movie.about }} </p>
-				<a ng-click="deleteMovies($index)"> Borrar </a>
-				<a ng-click="viewDetails"> Detalles </a>
-				<p> </p>
-				
-			</div>
-		</div>
+	<div ng-view>
 
 	</div>
 

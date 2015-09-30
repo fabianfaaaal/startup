@@ -1,0 +1,14 @@
+<p> Probando ruta</p>
+	<h1> {{ title }} </h1>
+
+		<div class="moviess" ng-repeat="movie in movies">
+			<div> 
+				<p id="titulo"> {{ movie.name }} </p>
+				<img ng-src="{{ movie.img }}">
+				<p id="año"> {{ movie.year }} </p>
+				<p id="info"> {{ movie.about }} </p>
+				<a ng-click="deleteMovies($index)"> Borrar </a>
+				<a href="/view/{{id}}"> Detalles </a>
+				<p> </p>
+			</div>
+		</div>

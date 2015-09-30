@@ -1,4 +1,4 @@
-app.controller('MainController', ['$scope', function($scope) {
+app.controller('AppCtrl', ['$scope', function($scope) {
   $scope.title = 'Aprendiendo AngularJS Movies';
   $scope.movies = [ 
   { 
