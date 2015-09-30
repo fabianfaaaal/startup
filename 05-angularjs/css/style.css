@@ -1,0 +1,61 @@
+html{
+	font-family: sans-serif;
+}
+
+.cuerpo{
+	text-align: center;
+	position: center
+
+}
+
+.list{
+	position: center;
+	display: block;
+
+	 
+}
+
+.moviess{
+	/* TOP RIGHT BOTTOM LEFT*/
+	margin: 0 auto 0 auto;
+
+	width: 600px;
+	border-style: dotted;
+	border-width: 2px;
+}
+
+#titulo{
+	color: blue;
+	font-size: 21px;
+	font-style: bold;
+	text-decoration: underline;
+
+}
+
+#año{
+	font-style: italic;
+}
+
+#info{
+	font-size: 16px;
+
+}
+
+a:link{
+	color: blue;
+	text-decoration: underline;
+}
+a:visited{
+	color: blue;
+	text-decoration: underline;
+}
+a:hover{
+
+    color: #FF0000;
+    text-decoration: underline;
+
+}
+img{
+	border-style: solid;
+	border-width: 1px;
+}
