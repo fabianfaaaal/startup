@@ -11,7 +11,7 @@ app.controller('AppCtrl', ['$scope', function($scope) {
   {
     id: 1,
   	name: 'Indiana Jones', 
-    year: 1984, 
+    year: 1984,
     about: 'After arriving in India, Indiana Jones is asked by a desperate village to find a mystical stone. He agrees, and stumbles upon a secret cult plotting a terrible plan in the catacombs of an ancient palace.', 
     img: 'http://ia.media-imdb.com/images/M/MV5BMTMyNzI4OTA5OV5BMl5BanBnXkFtZTcwMDQ2MjAxNA@@._V1_SX214_AL_.jpg'
   }
