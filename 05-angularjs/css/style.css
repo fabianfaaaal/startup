@@ -5,14 +5,11 @@ html{
 .cuerpo{
 	text-align: center;
 	position: center
-
 }
 
 .list{
 	position: center;
 	display: block;
-
-	 
 }
 
 .moviess{
@@ -29,7 +26,6 @@ html{
 	font-size: 21px;
 	font-style: bold;
 	text-decoration: underline;
-
 }
 
 #año{
@@ -38,23 +34,24 @@ html{
 
 #info{
 	font-size: 16px;
-
 }
 
 a:link{
 	color: blue;
 	text-decoration: underline;
 }
+
 a:visited{
 	color: blue;
 	text-decoration: underline;
 }
+
 a:hover{
 
     color: #FF0000;
     text-decoration: underline;
-
 }
+
 img{
 	border-style: solid;
 	border-width: 1px;

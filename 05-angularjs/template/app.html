@@ -1,14 +1,15 @@
-<p> Probando ruta</p>
-	<h1> {{ title }} </h1>
+<h1> {{ title }} </h1>
 
-		<div class="moviess" ng-repeat="movie in movies">
-			<div> 
-				<p id="titulo"> {{ movie.name }} </p>
-				<img ng-src="{{ movie.img }}">
-				<p id="año"> {{ movie.year }} </p>
-				<p id="info"> {{ movie.about }} </p>
-				<a ng-click="deleteMovies($index)"> Borrar </a>
-				<a href="#/view/{{movie.id}}"> Detalles </a>
-				<p> </p>
-			</div>
-		</div>
+<div class="moviess" ng-repeat="movies in movies">
+	<div> 
+		<p id="titulo"> {{ movies.name }} </p>
+		<img ng-src="{{ movies.img }}">
+		<!-- <p id="año"> {{ movie.year }} </p> -->
+		<!-- <p id="info"> {{ movie.about }} </p> -->
+		<p> {{ movies.id }} </p>
+		<p> </p>
+		<a ng-click="deleteMovies($index)"> Borrar </a>
+		<a href="#/view/{{movies.id}}"> Detalles </a>
+		<p> </p>
+	</div>
+</div>
